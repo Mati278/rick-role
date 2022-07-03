@@ -14,3 +14,7 @@ return
 end
 return p(i,v,...)
 end)
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "done bro";
+	Text = "the script load";
+	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
